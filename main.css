@@ -55,7 +55,11 @@
 }
 
 ::-webkit-scrollbar {
-    display: none;
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 155, 228, 0.493);
 }
 
 *
@@ -122,6 +126,14 @@ button
     width: 30%;
     left: 35%; /* (100 - width) / 2*/
 }
+.clickText:hover
+{
+    animation: link-anim .5s ease-out forwards
+}
+.clickText:not(hover)
+{
+    animation: link-anim-undo .5s ease-out forwards
+}
 /*********************************************** credits ***********************************************/
 
 .screenDiv
@@ -145,18 +157,6 @@ button
     margin-left: calc( var(--screenDivWidth) / -2 );
     margin-top:  calc( var(--screenDivHeight) / -2 );
 }
-
-
-
-.clickText:hover
-{
-    animation: link-anim .5s ease-out forwards
-}
-.clickText:not(hover)
-{
-    animation: link-anim-undo .5s ease-out forwards
-}
-
 
 .screenOverlayDiv
 {
@@ -407,6 +407,8 @@ button
     border: none;
 
     text-align: left;
+
+    overflow-y: scroll;
 
     top: 20px;
 
