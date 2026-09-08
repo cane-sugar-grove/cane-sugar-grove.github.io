@@ -9,7 +9,7 @@ const SHORT_HAND =  //shorthand so i don't clog up stuff with big blockos of tex
      I'll tweak my old antivirus to search for errors during world implementation \
      and throw it in there. \
      <br> <br> <br> \
-     Anyways, I'm going to take \"the kids\" out for ice cream. <br>  The things you can do with biomimicry, huh? huh????????????????"
+     Anyways, I'm going to take \"the kids\" out for ice cream. <br>  The things you can do with biomimicry, huh? huh???????????????"
 }
 
 const FLAG_KEYS =
